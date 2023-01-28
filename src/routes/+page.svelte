@@ -42,9 +42,6 @@
     let ready:boolean = false;
     // if (allwordsMap.get(i).number != i) console.log (`word is: ${currentword} and index is: ${index} `) 
 
-    onMount(() => {
-        animateScroll.scrollToBottom({duration:15000})
-    })
 	}
   
   
@@ -55,7 +52,7 @@
 
 <p class="sr-only">{sentence}</p>
 
-<div class="flex flex-row gap-6 w-full flex-wrap items-center align-middle justify-center max-w-6xl m-auto">
+<div class="flex flex-row gap-6 w-full flex-wrap items-center align-middle justify-center max-w-5xl m-auto">
   <OnMount>
 
 	{#each allwordsMap as {word, filename}, i }

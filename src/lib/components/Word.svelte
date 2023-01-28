@@ -5,19 +5,13 @@
 </script>
 
 
-	<figure>
-		<picture>
+	<figure class="h-12 lg:h-20 w-auto">
+		<picture class="h-12 lg:h-20 w-auto block">
 			<source media="(min-width: 50px)"  srcset="/words/{image}.webp" type="image/webp"  />
-			<img src="/words/{image}.png" alt={word} />
+			<img src="/words/{image}.png" alt={word} class="h-12 lg:h-20 w-auto" />
 		</picture>
 	</figure>
 	<span class="sr-only">{word}</span>
 
 <style>
-  figure {
-    height: 100px;
-  }
-  img {
-    height: 100%;
-  }
 </style>
