@@ -44,6 +44,7 @@
 
 	import Word from '../lib/components/Word.svelte'
   import About from '../lib/components/About.svelte'
+
 </script>
 
 <p class="sr-only">{sentence}</p>
@@ -63,5 +64,5 @@
 		{/each}
 	</OnMount>
 </div>
-<About />
+<About /> 
 <div id="footer" />

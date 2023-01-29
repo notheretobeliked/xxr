@@ -1,13 +1,20 @@
 <script lang="ts">
-	let h: number = 0
+	import { onMount } from 'svelte'
+
+  let h: number = 0
 	let wh: number = 0
-	let vh: string = '--vh: 200vh'
+	let vh: string = '--vh: 100vh'
 	let active: boolean = false
+  let overlay: HTMLElement
 
 	// update css variabel called --vh
-	$: vh = `--vh: ${wh - h}px`
+	$: vh!= '--vh: 100vh' ? vh = `--vh: ${wh - h}px` : vh = '--vh: 100vh'
 
 	import Button from './Button.svelte'
+
+	onMount(async () => {
+		vh = `--vh: ${wh - h}px`
+	});
 </script>
 
 <svelte:window bind:innerHeight={wh} />
@@ -20,6 +27,7 @@
 	aria-expanded={active ? 'true' : 'false'}
 	on:click={() => (active = !active)}
 	on:keypress={() => (active = !active)}
+  bind:this={overlay}
 >
 	<div class="header-grid grid grid-cols-2 px-4 lg:px-8">
 		<header bind:clientHeight={h} class="py-4">
@@ -71,8 +79,9 @@
 
 <style>
 	.overlay {
-		top: var(--vh);
+    top: var(--vh);
 		transition: top 0.5s ease-out;
+    --vh: 200vh;
 	}
 
 	.space-it p,
