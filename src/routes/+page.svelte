@@ -4,9 +4,9 @@
 	import { OnMount } from 'fractils'
 
 	const sentence: string =
-		"#ThePeople don't trust the #UKGovernment. Enough is Enough !. #JustStop killing us. This is an #attackonnature on Black Lives on #OurNHS an #Attack on Britain. #togetherwearestronger if the people unite & #actnow #forthemanynotthefew #4justice & peace for wildlife 4 nature. #timeforbetterpay a #greennewdeal #foryourworld. A National act of rebellion on the #HousesOfParliament"
+		"#ThePeople don't trust the #UKGovernment. Enough is enough!. #JustStop killing us. This is an #attackonnature on Black Lives on #OurNHS an #Attack on Britain. #togetherwearestronger if the people unite & #actnow #forthemanynotthefew #4justice & peace for wildlife #4nature. #timeforbetterpay a #greennewdeal #foryourworld. A National act of rebellion on the #HousesOfParliament"
 	let pattern: RegExp = /[#]/g
-	let allwords: Array<any> = sentence
+	let allwords: Array<string> = sentence
 		.replace(pattern, '')
 		.replaceAll('.', ' .')
 		.toLowerCase()
@@ -16,31 +16,15 @@
 		filename: string
 	}
 
-	let allwordsMap: Array<MapType> = []
-	let filename: string
-	let currentword: string
-	let index: Array<any>
+	const indexOfAll = (arr: Array<string>, val: string): Array<number> =>
+		arr.reduce((acc, el, i) => (el === val ? [...acc, i] : acc), [] as number[]);
 
-	const indexOfAll = (arr: Array<any>, val: string) =>
-		arr.reduce((acc, el, i) => (el === val ? [...acc, i] : acc), [])
-
-	for (let i = 0; i < allwords.length; i++) {
-		currentword = allwords[i]
-		filename = currentword
-		//console.log(currentword)
-		// find index of allword[i] inside allwords
-		index = indexOfAll(allwords, currentword)
-		// if (index[0] == i) console.log('this is the first iteration')
-
-		if (i != index[0]) {
-			for (let j = 0; j < index.length; j++) {
-				if (i == index[j]) {
-					filename = `${currentword}_${j + 1}`
-				}
-			}
-		}
-		allwordsMap.push({ word: allwords[i], filename: filename })
-	}
+	let allwordsMap: Array<MapType> = allwords.map((currentword, i) => {
+		let index = indexOfAll(allwords, currentword)
+		let filename =
+			i !== index[0] ? `${currentword}_${index.findIndex((j:number) => i === j) + 1}` : currentword
+		return { word: currentword, filename: filename }
+	})
 
 	import Word from '$lib/components/Word.svelte'
 	import About from '$lib/components/About.svelte'
@@ -66,6 +50,6 @@
 </div>
 <About />
 <div class="hidden">
-<Svgs />
+	<Svgs />
 </div>
 <div id="footer" />

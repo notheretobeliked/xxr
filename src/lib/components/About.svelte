@@ -27,27 +27,31 @@
 	aria-expanded={active ? 'true' : 'false'}
 	bind:this={overlay}
 >
-	<div class="header-grid grid grid-cols-2 lg:grid-cols-4 px-4 lg:px-8 w-full max-w-6xl m-auto">
-		<header bind:clientHeight={h} class="py-4 lg:col-span-3">
+	<div class="header-grid grid md:grid-cols-2 lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
+		<header bind:clientHeight={h} class="py-4 lg:col-span-3 sticky top-0">
 			<h1 class="mt-0">Surround Parliament 21st April 2023</h1>
 			<h2 class="mb-0">
 				Everyone's coming.<br />
 				Or everyone's dying.
 			</h2>
+			<button class="md:hidden" on:click={() => (active = !active)} on:keypress={() => (active = !active)}>
+				<Button label={!active ? "What’s all this then?" : 'Back to the collage'} />
+			</button>
 		</header>
 		<div>
-			<button on:click={() => (active = !active)} on:keypress={() => (active = !active)}>
-				<Button label={!active ? "What's all this then?" : 'Pretty collage please'} />
+			<button class="hidden md:flex" on:click={() => (active = !active)} on:keypress={() => (active = !active)}>
+				<Button label={!active ? "What’s all this then?" : 'Back to the collage'} />
 			</button>
+
 		</div>
 	</div>
-
+	{#if active}
 	<div class="bg-yellow w-full text-black py-7 lg:py-12">
 		<div
-			class="space-it grid lg:grid-cols-4 px-4 lg:px-8 w-full max-w-6xl m-auto"
+			class="space-it grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto"
 		>
 			<div class="col-span-3">
-				<h1 class="text-2xl">What's all this then?</h1>
+				<h1 class="">What’s all this then?</h1>
 
 				<p>It’s the people embracing democracy.</p>
 
@@ -64,10 +68,10 @@
 
 	<div class="bg-black w-full text-pink py-7 lg:py-12">
 		<div
-			class="space-it grid lg:grid-cols-4 px-4 lg:px-8 w-full max-w-6xl m-auto"
+			class="space-it grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto"
 		>
 			<div class="col-span-3">
-				<h1 class="text-2xl">Who's coming?</h1>
+				<h1 class="">Who’s coming?</h1>
 
 				<p>Everyone is coming.</p>
 
@@ -85,10 +89,10 @@
 
 	<div class="bg-yellow w-full text-black py-7 lg:py-12">
 		<div
-			class="space-it mt-6 lg:mt-14 grid lg:grid-cols-4 px-4 lg:px-8 w-full max-w-6xl m-auto"
+			class="space-it grid lg:grid-cols-4  gap-6 px-4 lg:px-8 w-full max-w-6xl m-auto"
 		>
 			<div class="col-span-3">
-				<h1 class="text-2xl">OK, so what can i do?</h1>
+				<h1 class="">OK, so what can i do?</h1>
 
 				<p>Just show up.</p>
 
@@ -104,16 +108,16 @@
 
 				<p>But there’s more you can do to join the campaign:</p>
 			</div>
-			<div class="lg:row-start-2 h-full col-span-4 lg:col-span-1">
+			<div class="lg:row-start-2 h-full px-24 lg:px-0 col-span-4 lg:col-span-1">
 				<Button label="Pledge to come" />
 			</div>
-			<div class="lg:row-start-2  h-full col-span-4 lg:col-span-1">
-				<Button label="Get your friends to come" />
+			<div class="lg:row-start-2  h-full px-24 lg:px-0 col-span-4 lg:col-span-1">
+				<Button label="Bring your friends" />
 			</div>
-			<div class="lg:row-start-2  h-full col-span-4 lg:col-span-1">
+			<div class="lg:row-start-2  h-full px-24 lg:px-0 col-span-4 lg:col-span-1">
 				<Button label="Share the memes" />
 			</div>
-			<div class="lg:row-start-2  h-full col-span-4 lg:col-span-1">
+			<div class="lg:row-start-2  h-full px-24 lg:px-0 col-span-4 lg:col-span-1">
 				<Button label="Take the quiz" />
 			</div>
 		</div>
@@ -121,10 +125,10 @@
 
 	<div class="bg-black w-full text-pink py-7 lg:py-12">
 		<div
-			class="space-it mt-6 lg:mt-14 grid lg:grid-cols-4 px-4 lg:px-8 w-full max-w-6xl m-auto"
+			class="space-it grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto"
 		>
 			<div class="col-span-3">
-				<h1 class="text-2xl">I’m still not convinced. What’s at stake?</h1>
+				<h1 class="">I’m still not convinced. What’s at stake?</h1>
 
 				<p>If this fails, we all die.</p>
 
@@ -148,6 +152,8 @@
 			</div>
 		</div>
 	</div>
+
+	{/if}
 </div>
 
 <style>
@@ -167,7 +173,7 @@
 	}
 
 	.overlay.active {
-		top: 30px;
+		top: 0;
 	}
 
 	.overlay.active button {

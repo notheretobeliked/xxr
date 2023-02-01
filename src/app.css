@@ -8,30 +8,18 @@ body {
 
 @layer base {
 	body {
-		@apply leading-tight font-hk;
+		@apply leading-tight font-hk font-normal;
 	}
 
   h1,
   h2 {
-    @apply font-hk-wide;
+    @apply font-hk-wide font-normal;
   }
 
 	@font-face {
 		font-family: 'HK Grotesk';
-		src: url('/fonts/HKGrotesk-Bold.woff2') format('woff2');
-		font-weight: 800;
-		font-style: normal;
-	}
-	@font-face {
-		font-family: 'HK Grotesk';
 		src: url('/fonts/HKGrotesk-SemiBold.woff2') format('woff2');
 		font-weight: 600;
-		font-style: normal;
-	}
-	@font-face {
-		font-family: 'HK Grotesk Wide';
-		src: url('/fonts/HKGroteskWide-Bold.woff2') format('woff2');
-		font-weight: 800;
 		font-style: normal;
 	}
 	@font-face {
