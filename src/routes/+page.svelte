@@ -42,9 +42,9 @@
 		allwordsMap.push({ word: allwords[i], filename: filename })
 	}
 
-	import Word from '../lib/components/Word.svelte'
-  import About from '../lib/components/About.svelte'
-
+	import Word from '$lib/components/Word.svelte'
+	import About from '$lib/components/About.svelte'
+	import Svgs from '$lib/components/svgs.svelte'
 </script>
 
 <p class="sr-only">{sentence}</p>
@@ -64,5 +64,8 @@
 		{/each}
 	</OnMount>
 </div>
-<About /> 
+<About />
+<div class="hidden">
+<Svgs />
+</div>
 <div id="footer" />

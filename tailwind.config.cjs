@@ -3,15 +3,19 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     colors: {
-      'yellow': 'rgb(255, 255, 0)',
-      'black': 'rgb(54, 41, 36)',
-      'pink': 'rgb(250, 96, 214)',
+      'yellow': '#FEE17B',
+      'black': '#191B2E',
+      'pink': '#F099FF',
     },
     fontSize: {
       sm: '1rem',
       base: '1.5rem',
       xl: '1.75rem',
       '2xl': '2.5rem',
+    },
+    fontFamily: {
+      'hk': ['HK Grotesk', 'Helvetica', 'Arial', 'sans-serif'],
+      'hk-wide': ['HK Grotesk Wide', 'Helvetica', 'Arial', 'sans-serif'],
     },
     extend: {},
   },
