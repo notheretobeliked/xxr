@@ -104,16 +104,16 @@
 
 				<p>But there’s more you can do to join the campaign:</p>
 			</div>
-			<div class="row-start-2 h-full">
+			<div class="lg:row-start-2 h-full col-span-4 lg:col-span-1">
 				<Button label="Pledge to come" />
 			</div>
-			<div class="row-start-2 h-full">
+			<div class="lg:row-start-2  h-full col-span-4 lg:col-span-1">
 				<Button label="Get your friends to come" />
 			</div>
-			<div class="row-start-2 h-full">
+			<div class="lg:row-start-2  h-full col-span-4 lg:col-span-1">
 				<Button label="Share the memes" />
 			</div>
-			<div class="row-start-2 h-full">
+			<div class="lg:row-start-2  h-full col-span-4 lg:col-span-1">
 				<Button label="Take the quiz" />
 			</div>
 		</div>
