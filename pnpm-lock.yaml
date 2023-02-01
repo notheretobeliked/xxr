@@ -16,6 +16,7 @@ specifiers:
   prettier-plugin-svelte: ^2.8.1
   svelte: ^3.54.0
   svelte-check: ^3.0.1
+  svelte-modals: ^1.2.1
   svelte-preprocess: ^5.0.1
   svelte-scrollto-element: ^0.7.0
   tailwindcss: ^3.2.4
@@ -25,6 +26,7 @@ specifiers:
   vite-imagetools: ^4.0.17
 
 dependencies:
+  svelte-modals: 1.2.1_svelte@3.55.1
   svelte-scrollto-element: 0.7.0_svelte@3.55.1
 
 devDependencies:
@@ -2031,6 +2033,14 @@ packages:
     dependencies:
       svelte: 3.55.1
     dev: true
+
+  /svelte-modals/1.2.1_svelte@3.55.1:
+    resolution: {integrity: sha512-7MEKUx5wb5YppkXWFGeRlYM5FMGEnpix39u9Y6GtCNTMXRDZ7DB2Z50IYLMRTMW5lOsCdtJgFbB0E3iZMKmsAA==}
+    peerDependencies:
+      svelte: ^3.0.0
+    dependencies:
+      svelte: 3.55.1
+    dev: false
 
   /svelte-preprocess/5.0.1_oifjsu5oar4lzyaoppb2hxramu:
     resolution: {integrity: sha512-0HXyhCoc9rsW4zGOgtInylC6qj259E1hpFnJMJWTf+aIfeqh4O/QHT31KT2hvPEqQfdjmqBR/kO2JDkkciBLrQ==}

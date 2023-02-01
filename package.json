@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-modals": "^1.2.1",
 		"svelte-scrollto-element": "^0.7.0"
 	}
 }
