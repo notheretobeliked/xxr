@@ -3,6 +3,9 @@
 	import { cubicOut } from 'svelte/easing'
 	import { OnMount } from 'fractils'
 
+	import type { PageData } from './$types';
+	export let data 
+	
 	const sentence: string =
 		"#ThePeople don't trust the #UKGovernment. Enough is enough!. #JustStop killing us. This is an #attackonnature on Black Lives on #OurNHS an #Attack on Britain. #togetherwearestronger if the people unite & #actnow #forthemanynotthefew #4justice & peace for wildlife #4nature. #timeforbetterpay a #greennewdeal #foryourworld. A National act of rebellion on the #HousesOfParliament"
 	let pattern: RegExp = /[#]/g
@@ -16,6 +19,9 @@
 		filename: string
 	}
 
+	const slug= "/"
+
+
 	const indexOfAll = (arr: Array<string>, val: string): Array<number> =>
 		arr.reduce((acc, el, i) => (el === val ? [...acc, i] : acc), [] as number[]);
 
@@ -26,10 +32,33 @@
 		return { word: currentword, filename: filename }
 	})
 
+	const image = {
+		url: '/XXR-Open-Graph_v1.png',
+		alt: 'Surround Parliament, 21 April 2023',
+	}
+
+	const squareImage = {
+		url: '/XXR-Open-Graph_v1_sq.png',
+		alt: 'Surround Parliament, 21 April 2023',
+	}
+
+	const {
+		pageTitle,
+		metadescription,
+		url,
+	} = data as PageData
+	
+
+
 	import Word from '$lib/components/Word.svelte'
 	import About from '$lib/components/About.svelte'
 	import Svgs from '$lib/components/svgs.svelte'
+	import OpenGraph from '$lib/components/SEO/OpenGraph.svelte'
+	import Twitter from '$lib/components/SEO/Twitter.svelte'
 </script>
+
+<Twitter {pageTitle} {metadescription} {url} {image} />
+<OpenGraph {pageTitle} {metadescription} siteUrl={url} {image} {squareImage} />
 
 <p class="sr-only">{sentence}</p>
 
