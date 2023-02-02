@@ -33,7 +33,7 @@
 	<div
 		class="header-grid grid md:grid-cols-2 lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto"
 	>
-		<header bind:clientHeight={h} class="py-4 lg:col-span-3 sticky top-0">
+		<header bind:clientHeight={h} class="py-4 px-2 lg:col-span-3 sticky top-0">
 			<h1 class="mt-0">Surround Parliament 21st April 2023</h1>
 			<h2 class="mb-0">
 				Everyone's coming.<br />
@@ -61,10 +61,10 @@
 		<div
 			in:fly={{ y: 200, duration: 1000 }}
 			out:fade={{ duration: 300 }}
-			class="overflow-scroll h-screen"
+			class="overflow-scroll h-screen pb-96"
 		>
 			<div class="bg-yellow w-full text-black py-7 lg:py-12">
-				<div class="space-it grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
+				<div class="space-it px-2 grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
 					<div class="col-span-3">
 						<h1 class="">What’s all this then?</h1>
 
@@ -83,7 +83,7 @@
 			</div>
 
 			<div class="bg-black w-full text-pink py-7 lg:py-12">
-				<div class="space-it grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
+				<div class="space-it px-2 grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
 					<div class="col-span-3">
 						<h1 class="">Who’s coming?</h1>
 
@@ -104,7 +104,7 @@
 			</div>
 
 			<div class="bg-yellow w-full text-black py-7 lg:py-12">
-				<div class="space-it grid lg:grid-cols-4  gap-6 px-4 lg:px-8 w-full max-w-6xl m-auto">
+				<div class="space-it grid lg:grid-cols-4  gap-6 px-2 lg:px-8 w-full max-w-6xl m-auto">
 					<div class="col-span-3">
 						<h1 class="">OK, so what can i do?</h1>
 
@@ -194,7 +194,7 @@
 			</div>
 
 			<div class="bg-black w-full text-pink py-7 lg:py-12">
-				<div class="space-it grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
+				<div class="space-it px-2 grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
 					<div class="col-span-3">
 						<h1 class="">I’m still not convinced. What’s at stake?</h1>
 
@@ -246,7 +246,13 @@
 	}
 
 	.overlay.active {
-		top: 20vh;
+		top: 0;
+	}
+
+	@media (min-width: 768px) {
+		.overlay.active {
+			top: 5rem;
+		}
 	}
 
 	.overlay.active button {
