@@ -7,7 +7,7 @@
 	export let data 
 	
 	const sentence: string =
-		"#ThePeople don't trust the #UKGovernment. Enough is enough!. #JustStop killing us. This is an #attackonnature on Black Lives on #OurNHS an #Attack on Britain. #togetherwearestronger if the people unite & #actnow #forthemanynotthefew #4justice & peace for wildlife #4nature. #timeforbetterpay a #greennewdeal #foryourworld. A National act of rebellion on the #HousesOfParliament"
+		"#ThePeople don't trust the #UKGovernment. Enough is enough!. #JustStop killing us. This is an #attackonnature on Black Lives on #OurNHS an #Attack on Britain. #togetherwearestronger if the people unite & #actnow #forthemanynotthefew #4justice & peace for wildlife #4nature. #timeforbetterpay a #greennewdeal #foryourworld. 21 April A National act of rebellion on the #HousesOfParliament"
 	let pattern: RegExp = /[#]/g
 	let allwords: Array<string> = sentence
 		.replace(pattern, '')
