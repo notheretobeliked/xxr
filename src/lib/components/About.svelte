@@ -35,10 +35,10 @@
 		class="header-grid grid md:grid-cols-2 lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto"
 	>
 		<header bind:clientHeight={h} class="py-4 px-2 lg:col-span-3 sticky top-0">
-			<h1 class="mt-0">Surround Parliament 21st April 2023</h1>
+			<h1 class="mt-0">Surround Parliament 21 April 2023</h1>
 			<h2 class="mb-0">
-				Everyone's coming.<br />
-				Or everyone's dying.
+				Everyone’s coming.<br />
+				Or everyone’s dying.
 			</h2>
 			<button
 				class="md:hidden"
@@ -98,7 +98,7 @@
 						</p>
 
 						<p>
-							However you stand for love, care, rights, life: Stand together on 21st April 2023.
+							However you stand for love, care, rights, life: Stand together on 21 April 2023.
 						</p>
 					</div>
 				</div>
@@ -113,7 +113,7 @@
 
 						<p>
 							This will not be like the Iraq march, because we’re not going home at the end of the
-							day. So come everyday or any day and Protest Parliament from April 21st.
+							day. So come everyday or any day and Protest Parliament from 21 April.
 						</p>
 
 						<p>
@@ -129,13 +129,13 @@
 							openModal(Modal, {
 								title: 'Pledge to come',
 								message:
-									'I will Protest Parliament from April 21st.<br><br><em>Just say it out loud. We don’t want your your personal data, we want to live.</em>'
+									'I will Protest Parliament from 21 April.<br><br><em>Just say it out loud. We don’t want your your personal data, we want to live.</em>'
 							})}
 						on:keypress={() =>
 							openModal(Modal, {
 								title: 'Pledge to come',
 								message:
-									'I will Protest Parliament from April 21st.<br><br><em>Just say it out loud. We don’t want your your personal data, we want to live.</em>'
+									'I will Protest Parliament from 21 April.<br><br><em>Just say it out loud. We don’t want your your personal data, we want to live.</em>'
 							})}
 					>
 						<Button label="Pledge to come" />

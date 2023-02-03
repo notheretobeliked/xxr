@@ -30,7 +30,7 @@
   </video>
 </div>
 <div role="dialog" class="modal fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center pointer-events-none p-4 lg:p-8">
-    <div class="w-full bg-yellow max-w-2xl p-4 md:p-12 lg:p-24 flex flex-col justify-between pointer-events-auto">
+    <div class="w-full bg-yellow max-w-2xl p-8 md:p-12 lg:p-24 flex flex-col justify-between pointer-events-auto">
       <h2 class="text-base lg:text-xl mb-4 lg:mb-8">{title}</h2>
       <p class="text-base lg:text-xl">{@html message}</p>
       <div class="actions">
