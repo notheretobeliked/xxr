@@ -241,11 +241,9 @@
 						<Word image="CPRE" folder="logos" />
 						<Word image="GND" folder="logos" />
 						<Word image="RMT" folder="logos" />
-
 					</div>
 				</div>
 			</div>
-
 		</div>
 	{/if}
 </div>
