@@ -229,15 +229,17 @@
 
 			<div class="bg-yellow w-full text-black py-7 lg:py-12">
 				<div class="space-it px-2 grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
-					<div class="col-span-4 flex flex-row gap-4 logos">
-						<Word image="Amnesty" folder="logos" />
-						<Word image="BLM" folder="logos" />
-						<Word image="CND" folder="logos" />
-						<Word image="CPRE" folder="logos" />
-						<Word image="GND" folder="logos" />
+					<div class="col-span-4 flex flex-row gap-6 logos">
 						<Word image="Greenpeace" folder="logos" />
 						<Word image="NationalTrust" folder="logos" />
 						<Word image="RCN" folder="logos" />
+
+						<Word image="Amnesty" folder="logos" />
+						<Word image="CND" folder="logos" />
+
+						<Word image="BLM" folder="logos" />
+						<Word image="CPRE" folder="logos" />
+						<Word image="GND" folder="logos" />
 						<Word image="RMT" folder="logos" />
 
 					</div>
