@@ -13,7 +13,10 @@
 </script>
 
 <svelte:head>
-	<meta property="og:site_name" content={siteTitle} />
+  <meta name="keywords" content="Surround Parliament, activism, cost of living, protest, anti-government, Just Stop Oil, Extinction Rebellion, Greenpeace, RSPB, RMT, Royal College of Nurses, Rishi Sunak, civil disobedience, Suffragettes, MLK, Berlin Wall, London, United Kingdom "/>
+	<meta name="description" content={metadescription} />
+
+  <meta property="og:site_name" content={siteTitle} />
 	<meta property="og:locale" content={ogLanguage} />
 	<meta property="og:url" content={siteUrl} />
 	<meta property="og:type" content='website' />

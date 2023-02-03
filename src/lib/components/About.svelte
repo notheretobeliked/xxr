@@ -35,7 +35,7 @@
 		class="header-grid grid md:grid-cols-2 lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto"
 	>
 		<header bind:clientHeight={h} class="py-4 px-2 lg:col-span-3 sticky top-0">
-			<h1 class="mt-0">Surround Parliament 21 April 2023</h1>
+			<h1 class="mt-0">Surround Parliament from 21 April 2023</h1>
 			<h2 class="mb-0">
 				Everyone’s coming.<br />
 				Or everyone’s dying.
