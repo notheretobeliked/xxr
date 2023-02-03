@@ -11,10 +11,6 @@
     on:click={closeModal}
     on:keypress={closeModal}
   >
-  <video autoplay playsinline mute>
-    <source src="/xr-dance.webm" type="video/webm">
-    <source src="/xr-dance.mp4" type="video/mp4">
-</video>
 </div>
 </Modals>
 

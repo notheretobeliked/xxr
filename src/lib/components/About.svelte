@@ -14,6 +14,7 @@
 
 	import Button from './Button.svelte'
 	import Modal from './Modal.svelte'
+	import Word from './Word.svelte'
 
 	onMount(async () => {
 		vh = `--vh: ${wh - h}px`
@@ -47,7 +48,7 @@
 				<Button label={!active ? 'What’s all this then?' : 'Back to the collage'} />
 			</button>
 		</header>
-		<div>
+		<div class="pt-2">
 			<button
 				class="hidden md:flex"
 				on:click={() => (active = !active)}
@@ -116,76 +117,76 @@
 						</p>
 
 						<p>
-							This will be like the fall of the Berlin wall. So bring your friends, they won't want
+							This will be like the fall of the Berlin wall. So bring your friends, they won’t want
 							to miss it.
 						</p>
 
 						<p>But there’s more you can do to join the campaign:</p>
 					</div>
 					<div
-						class="lg:row-start-2 h-full px-24 lg:px-0 col-span-4 lg:col-span-1"
+						class="lg:row-start-2 h-full lg:px-0 col-span-4 lg:col-span-1 mb-4"
 						on:click={() =>
 							openModal(Modal, {
 								title: 'Pledge to come',
 								message:
-									'I will Protest Parliament from April 21st.<br><br>(Just say it out loud. We don’t want your your personal data, we want to live.)'
+									'I will Protest Parliament from April 21st.<br><br><em>Just say it out loud. We don’t want your your personal data, we want to live.</em>'
 							})}
 						on:keypress={() =>
 							openModal(Modal, {
 								title: 'Pledge to come',
 								message:
-									'I will Protest Parliament from April 21st.<br><br>(Just say it out loud. We don’t want your your personal data, we want to live.)'
+									'I will Protest Parliament from April 21st.<br><br><em>Just say it out loud. We don’t want your your personal data, we want to live.</em>'
 							})}
 					>
 						<Button label="Pledge to come" />
 					</div>
 					<div
-						class="lg:row-start-2  h-full px-24 lg:px-0 col-span-4 lg:col-span-1"
+						class="lg:row-start-2  h-full lg:px-0 col-span-4 lg:col-span-1 mb-4"
 						on:click={() =>
 							openModal(Modal, {
 								title: 'Bring your friends',
 								message:
-									'Tell your friends about it today. <br><br>(We don’t have the money to send them targeted ads, and it’s more convincing coming from you anyway)'
+									'Tell your friends about it today. <br><br><em>We don’t have the money to send them targeted ads, and it’s more convincing coming from you anyway</em>'
 							})}
 						on:keypress={() =>
 							openModal(Modal, {
 								title: 'Bring your friends',
 								message:
-									'Tell your friends about it today. <br><br>(We don’t have the money to send them targeted ads, and it’s more convincing coming from you anyway)'
+									'Tell your friends about it today. <br><br><em>We don’t have the money to send them targeted ads, and it’s more convincing coming from you anyway</em>'
 							})}
 					>
 						<Button label="Bring your friends" />
 					</div>
 					<div
-						class="lg:row-start-2  h-full px-24 lg:px-0 col-span-4 lg:col-span-1"
+						class="lg:row-start-2  h-full lg:px-0 col-span-4 lg:col-span-1 mb-4"
 						on:click={() =>
 							openModal(Modal, {
 								title: 'Share the memes',
 								message:
-									'There’s still time to call on more groups to support the coalition.<br><br>Share this website on social media. Tag the groups you want to come, or reply to their posts with this link. <br><br>(We don’t have the connections you do. Or the money to target them on social media. So we’re counting on you to spread the word.)'
+									'There’s still time to call on more groups to support the coalition.<br><br>Share this website on social media. Tag the groups you want to come, or reply to their posts with this link. <br><br><em>We don’t have the connections you do. Or the money to target them on social media. So we’re counting on you to spread the word.</em>'
 							})}
 						on:keydown={() =>
 							openModal(Modal, {
 								title: 'Share the memes',
 								message:
-									'There’s still time to call on more groups to support the coalition.<br><br>Share this website on social media. Tag the groups you want to come, or reply to their posts with this link. <br><br>(We don’t have the connections you do. Or the money to target them on social media. So we’re counting on you to spread the word.)'
+									'There’s still time to call on more groups to support the coalition.<br><br>Share this website on social media. Tag the groups you want to come, or reply to their posts with this link. <br><br><em>>We don’t have the connections you do. Or the money to target them on social media. So we’re counting on you to spread the word.</em>'
 							})}
 					>
 						<Button label="Share the memes" />
 					</div>
 					<div
-						class="lg:row-start-2  h-full px-24 lg:px-0 col-span-4 lg:col-span-1"
+						class="lg:row-start-2  h-full lg:px-0 col-span-4 lg:col-span-1 mb-4"
 						on:click={() =>
 							openModal(Modal, {
 								title: 'Take the quiz',
 								message:
-									'Will you surround Parliament from 21st April?<br><br>Answer correctly to be in with a chance to win hope.<br><br>(Terms and conditions apply: hope is a verb)'
+									'Will you surround Parliament from 21st April?<br><br>Answer correctly to be in with a chance to win hope.<br><br><em>Terms and conditions apply: hope is a verb</em>'
 							})}
 						on:keypress={() =>
 							openModal(Modal, {
 								title: 'Take the quiz',
 								message:
-									'Will you surround Parliament from 21st April?<br><br>Answer correctly to be in with a chance to win hope.<br><br>(Terms and conditions apply: hope is a verb)'
+									'Will you surround Parliament from 21st April?<br><br>Answer correctly to be in with a chance to win hope.<br><br><em>Terms and conditions apply: hope is a verb</em>'
 							})}
 					>
 						<Button label="Take the quiz" />
@@ -218,13 +219,31 @@
 						<p>With you there, together we will embrace democracy.</p>
 
 						<p>
-							Even if you're shit scared, don't think it will work, or are worried about the
+							Even if you’re shit scared, don’t think it will work, or are worried about the
 							logistics, come. There will be enough toilets for everyone. With you taking part, we
 							can overcome anything.
 						</p>
 					</div>
 				</div>
 			</div>
+
+			<div class="bg-yellow w-full text-black py-7 lg:py-12">
+				<div class="space-it px-2 grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
+					<div class="col-span-4 flex flex-row gap-4 logos">
+						<Word image="Amnesty" folder="logos" />
+						<Word image="BLM" folder="logos" />
+						<Word image="CND" folder="logos" />
+						<Word image="CPRE" folder="logos" />
+						<Word image="GND" folder="logos" />
+						<Word image="Greenpeace" folder="logos" />
+						<Word image="NationalTrust" folder="logos" />
+						<Word image="RCN" folder="logos" />
+						<Word image="RMT" folder="logos" />
+
+					</div>
+				</div>
+			</div>
+
 		</div>
 	{/if}
 </div>
@@ -234,6 +253,10 @@
 		top: var(--vh);
 		transition: top 0.5s ease-out;
 		--vh: 200vh;
+	}
+
+	.logos {
+		flex-wrap: wrap;
 	}
 
 	.space-it p,

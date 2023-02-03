@@ -1,62 +1,53 @@
 <script lang="ts">
   import { closeModal } from 'svelte-modals'
+  import Button from './Button.svelte'
 
   // provided by <Modals />
   export let isOpen: boolean
 
   export let title: string
   export let message: string
-
+  export let buttonlabel: string = "I will"
+  
+  const video: Array<any> = [
+    "1.mp4",
+    "2.mp4",
+    "3.mp4",
+    "4.mp4",
+  ]
+  
+  let randomNumber:number = Math.floor(Math.random()*video.length);
 </script>
 
 {#if isOpen}
-  <div role="dialog" class="modal">
-    <div class="contents">
-      <h2>{title}</h2>
-      <p>{@html message}</p>
+<div
+  class="backdrop fixed top-0 right-0 bottom-0 left-0"
+  on:click={closeModal}
+  on:keypress={closeModal}
+  >
+  <video autoplay playsinline mute>
+  <source src="/videos/{video[randomNumber]}" type="video/mp4">
+  </video>
+</div>
+<div role="dialog" class="modal fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center pointer-events-none p-8">
+    <div class="w-full bg-yellow max-w-2xl p-24 flex flex-col justify-between pointer-events-auto">
+      <h2 class="text-base lg:text-xl">{title}</h2>
+      <p class="text-base lg:text-xl">{@html message}</p>
       <div class="actions">
-        <button on:click={closeModal}>OK</button>
+        <div class="text-base lg:text-xl w-full" on:click={closeModal} on:keypress={closeModal}>
+          <Button label={buttonlabel} />
+        </div>
       </div>
     </div>
   </div>
 {/if}
 
 <style>
-  .modal {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* allow click-through to backdrop */
-    pointer-events: none;
+  video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
   }
-
-  .contents {
-    min-width: 240px;
-    border-radius: 6px;
-    padding: 16px;
-    background: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    pointer-events: auto;
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 24px;
-  }
-
-  p {
-    text-align: center;
-    margin-top: 16px;
-  }
-
   .actions {
     margin-top: 32px;
     display: flex;

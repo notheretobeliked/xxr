@@ -3,7 +3,7 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     colors: {
-      'yellow': '#FEE17B',
+      'yellow': '#FEE76F',
       'black': '#191B2E',
       'pink': '#F099FF',
     },
