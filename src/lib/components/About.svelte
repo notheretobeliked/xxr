@@ -73,7 +73,7 @@
 
 						<p>
 							100,000 people surrounding Parliament from 21 April, demanding a liveable future for
-							all. People coming 21 April, staying the night. People coming 23 April for the day.
+							all. People coming 22 April, staying the night. People coming 23 April for the day.
 							People coming 24 April and staying for a week.
 						</p>
 
@@ -92,11 +92,11 @@
 						<p>Everyone is coming.</p>
 
 						<p>
-							If you’re pissed off with a government that is doing nothing to help people and our
-							ecosystems but are not a protestor, you’ll be in good company: there will be members
-							of the Nurses Union, the National Trust and Greenpeace, as well as supporters of Black
-							Lives Matter and a Green New Deal. Thousands will attend who have never been to a
-							protest before. People who want to live, not die.
+							If you’re pissed off with a government that is doing nothing to protect the people and
+							ecosystems, you’ll be in good company: there will be members of the Nurses Union, the
+							National Trust and Greenpeace, as well as supporters of Black Lives Matter and a Green
+							New Deal. Thousands will attend who have never been to a protest before. People who
+							want to live, not die.
 						</p>
 
 						<p>However you stand for love, care, rights, life: Stand together on 21 April 2023.</p>
