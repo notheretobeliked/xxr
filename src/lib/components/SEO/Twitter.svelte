@@ -1,5 +1,7 @@
 <script lang="ts">
-	type Image = {
+import { PUBLIC_URL } from '$env/static/public'
+
+  type Image = {
 		url: string
 		alt: string
 	}
@@ -7,6 +9,8 @@
 	export let metadescription: string
 	export let pageTitle: string
 	export let url: string
+  
+  const twitterImage:string = `${PUBLIC_URL}${image.url}`
 </script>
 
 <svelte:head>
@@ -15,7 +19,7 @@
 	<meta name="twitter:description" content={metadescription} />
 	<meta name="twitter:url" content={url} />
 	{#if image}
-		<meta name="twitter:image" content={image.url} />
+		<meta name="twitter:image" content={twitterImage} />
 		<meta name="twitter:image:alt" content={image.alt} />
 	{/if}
 </svelte:head>

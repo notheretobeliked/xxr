@@ -69,11 +69,12 @@
 					<div class="col-span-3">
 						<h1 class="">What’s all this then?</h1>
 
-						<p>It’s the people embracing democracy.</p>
+						<p>Surround Parliament: Embrace democracy.</p>
 
 						<p>
 							100,000 people surrounding Parliament from 21 April, demanding a liveable future for
-							all.
+							all. People coming 21 April, staying the night. People coming 23 April for the day.
+							People coming 24 April and staying for a week.
 						</p>
 
 						<p>If 100,000 people stay day after day, we will win.</p>
@@ -91,15 +92,14 @@
 						<p>Everyone is coming.</p>
 
 						<p>
-							If you’re pissed off with the government but not a protestor, you’ll be in good
-							company: there will be members of the Nurses Union, the National Trust and Greenpeace.
-							As well as supporters of black lives matter and a green new deal. Thousands will
-							attend who have never been to a protest before. People who want to live, not die.
+							If you’re pissed off with a government that is doing nothing to help people and our
+							ecosystems but are not a protestor, you’ll be in good company: there will be members
+							of the Nurses Union, the National Trust and Greenpeace, as well as supporters of Black
+							Lives Matter and a Green New Deal. Thousands will attend who have never been to a
+							protest before. People who want to live, not die.
 						</p>
 
-						<p>
-							However you stand for love, care, rights, life: Stand together on 21 April 2023.
-						</p>
+						<p>However you stand for love, care, rights, life: Stand together on 21 April 2023.</p>
 					</div>
 				</div>
 			</div>
@@ -212,7 +212,7 @@
 						</p>
 
 						<p>
-							Don't assume someone else will sort this out. You are we and us. We need you too help
+							Don't assume someone else will sort this out. You are we and us. We need you to help
 							it grow.
 						</p>
 
@@ -229,6 +229,10 @@
 
 			<div class="bg-yellow w-full text-black py-7 lg:py-12">
 				<div class="space-it px-2 grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
+					<h1 class="col-span-4 text-sm">
+						Supporters of these organisations and many more will be surrounding Parliament from 21
+						April 2023. Will you?
+					</h1>
 					<div class="col-span-4 flex flex-row gap-6 logos">
 						<Word image="Greenpeace" folder="logos" />
 						<Word image="NationalTrust" folder="logos" />
