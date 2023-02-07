@@ -237,15 +237,20 @@
 						<Word image="Greenpeace" folder="logos" />
 						<Word image="rspb" folder="logos" />
 						<Word image="wlt" folder="logos" />
-						<Word image="Republic" folder="logos" />
+						<Word image="republiclogo" folder="logos" />
+						<Word image="undod" folder="logos" />
 						<Word image="NationalTrust" folder="logos" />
 						<Word image="RCN" folder="logos" />
 						<Word image="Amnesty" folder="logos" />
+						<Word image="jw3" folder="logos" />
 						<Word image="CND" folder="logos" />
+						<Word image="LWIC" folder="logos" />
+						<Word image="greenmuslims" folder="logos" />
 						<Word image="dontpay" folder="logos" />
 						<Word image="pbj" folder="logos" />
 						<Word image="BLM" folder="logos" />
 						<Word image="CPRE" folder="logos" />
+						<Word image="ICC" folder="logos" />
 						<Word image="GND" folder="logos" />
 						<Word image="RMT" folder="logos" />
 					</div>
