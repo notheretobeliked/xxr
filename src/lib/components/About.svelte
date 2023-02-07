@@ -229,15 +229,15 @@
 
 			<div class="bg-yellow w-full text-black py-7 lg:py-12">
 				<div class="space-it px-2 grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
-					<h1 class="col-span-4 text-sm">
+					<p class="col-span-4 text-sm mb-4">
 						Supporters of these organisations and many more will be surrounding Parliament from 21
 						April 2023. Will you?
-					</h1>
+					</p>
 					<div class="col-span-4 flex flex-row gap-6 logos">
 						<Word image="Greenpeace" folder="logos" />
 						<Word image="rspb" folder="logos" />
 						<Word image="wlt" folder="logos" />
-						<Word image="republic" folder="logos" />
+						<Word image="Republic" folder="logos" />
 						<Word image="NationalTrust" folder="logos" />
 						<Word image="RCN" folder="logos" />
 						<Word image="Amnesty" folder="logos" />
@@ -246,8 +246,8 @@
 						<Word image="pbj" folder="logos" />
 						<Word image="BLM" folder="logos" />
 						<Word image="CPRE" folder="logos" />
-						<Word image="gnd" folder="logos" />
-						<Word image="rmt" folder="logos" />
+						<Word image="GND" folder="logos" />
+						<Word image="RMT" folder="logos" />
 					</div>
 				</div>
 			</div>
