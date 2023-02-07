@@ -235,16 +235,19 @@
 					</h1>
 					<div class="col-span-4 flex flex-row gap-6 logos">
 						<Word image="Greenpeace" folder="logos" />
+						<Word image="rspb" folder="logos" />
+						<Word image="wlt" folder="logos" />
+						<Word image="republic" folder="logos" />
 						<Word image="NationalTrust" folder="logos" />
 						<Word image="RCN" folder="logos" />
-
 						<Word image="Amnesty" folder="logos" />
 						<Word image="CND" folder="logos" />
-
+						<Word image="dontpay" folder="logos" />
+						<Word image="pbj" folder="logos" />
 						<Word image="BLM" folder="logos" />
 						<Word image="CPRE" folder="logos" />
-						<Word image="GND" folder="logos" />
-						<Word image="RMT" folder="logos" />
+						<Word image="gnd" folder="logos" />
+						<Word image="rmt" folder="logos" />
 					</div>
 				</div>
 			</div>
