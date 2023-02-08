@@ -234,7 +234,7 @@
 						April 2023. Will you?
 					</p>
 					<div class="col-span-4 flex flex-row gap-6 logos">
-						<Word image="Greenpeace" folder="logos" />
+						<Word image="bpt" folder="logos" />
 						<Word image="rspb" folder="logos" />
 						<Word image="wlt" folder="logos" />
 						<Word image="republiclogo" folder="logos" />
