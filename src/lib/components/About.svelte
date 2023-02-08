@@ -73,8 +73,7 @@
 
 						<p>
 							100,000 people surrounding Parliament from 21 April, demanding a liveable future for
-							all. People coming 22 April, staying the night. People coming 23 April for the day.
-							People coming 24 April and staying for a week.
+							all. People coming 22 April, staying the night. People coming 23 April, staying even longer.
 						</p>
 
 						<p>If 100,000 people stay day after day, we will win.</p>
@@ -226,11 +225,11 @@
 					</div>
 				</div>
 			</div>
-
+			<!--
 			<div class="bg-yellow w-full text-black py-7 lg:py-12">
 				<div class="space-it px-2 grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
 					<p class="col-span-4 text-sm mb-4">
-						Supporters of these organisations and many more will be surrounding Parliament from 21
+						Supporters of many organisations and many more will be surrounding Parliament from 21
 						April 2023. Will you?
 					</p>
 					<div class="col-span-4 flex flex-row gap-6 logos">
@@ -256,6 +255,7 @@
 					</div>
 				</div>
 			</div>
+			-->
 		</div>
 	{/if}
 </div>
