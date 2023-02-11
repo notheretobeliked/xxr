@@ -73,8 +73,7 @@
 
 						<p>
 							100,000 people surrounding Parliament from 21 April, demanding a liveable future for
-							all. People coming 22 April, staying the night. People coming 23 April for the day.
-							People coming 24 April and staying for a week.
+							all. 
 						</p>
 
 						<p>If 100,000 people stay day after day, we will win.</p>
@@ -229,29 +228,40 @@
 
 			<div class="bg-yellow w-full text-black py-7 lg:py-12">
 				<div class="space-it px-2 grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
-					<p class="col-span-4 text-sm mb-4">
+					<p class="col-span-4 mb-4">
 						Supporters of these organisations and many more will be surrounding Parliament from 21
 						April 2023. Will you?
 					</p>
 					<div class="col-span-4 flex flex-row gap-6 logos">
-						<Word image="bpt" folder="logos" />
 						<Word image="rspb" folder="logos" />
+						<Word image="bpt" folder="logos" />
 						<Word image="wlt" folder="logos" />
+						<Word image="te" folder="logos" />
+						<Word image="fote" folder="logos" />
 						<Word image="republiclogo" folder="logos" />
 						<Word image="undod" folder="logos" />
+						<Word image="sas" folder="logos" />
+						<Word image="kbt" folder="logos" />
 						<Word image="NationalTrust" folder="logos" />
 						<Word image="RCN" folder="logos" />
 						<Word image="Amnesty" folder="logos" />
 						<Word image="jw3" folder="logos" />
+						<Word image="unison" folder="logos" />
+						<Word image="hjc" folder="logos" />
 						<Word image="CND" folder="logos" />
 						<Word image="LWIC" folder="logos" />
+						<Word image="ies" folder="logos" />						
+						<Word image="er" folder="logos" />						
+						<Word image="Greenpeace" folder="logos" />
 						<Word image="greenmuslims" folder="logos" />
 						<Word image="dontpay" folder="logos" />
 						<Word image="pbj" folder="logos" />
 						<Word image="BLM" folder="logos" />
 						<Word image="CPRE" folder="logos" />
 						<Word image="ICC" folder="logos" />
+						<Word image="unite" folder="logos" />
 						<Word image="GND" folder="logos" />
+						<Word image="zion" folder="logos" />
 						<Word image="RMT" folder="logos" />
 					</div>
 				</div>
