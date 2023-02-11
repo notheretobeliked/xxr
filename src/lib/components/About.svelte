@@ -246,6 +246,7 @@
 						<Word image="kbt" folder="logos" />
 						<Word image="NationalTrust" folder="logos" />
 						<Word image="RCN" folder="logos" />
+						<Word image="nhtbl" folder="logos" />
 						<Word image="mf" folder="logos" />
 						<Word image="fff" folder="logos" />
 						<Word image="paetport" folder="logos" />
