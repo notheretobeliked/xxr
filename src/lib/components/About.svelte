@@ -241,10 +241,15 @@
 						<Word image="fote" folder="logos" />
 						<Word image="republiclogo" folder="logos" />
 						<Word image="undod" folder="logos" />
-						<Word image="sas" folder="logos" />
+						<Word image="rw" folder="logos" />
+						<Word image="ss" folder="logos" />
 						<Word image="kbt" folder="logos" />
 						<Word image="NationalTrust" folder="logos" />
 						<Word image="RCN" folder="logos" />
+						<Word image="mf" folder="logos" />
+						<Word image="fff" folder="logos" />
+						<Word image="paetport" folder="logos" />
+						<Word image="hrc" folder="logos" />
 						<Word image="Amnesty" folder="logos" />
 						<Word image="jw3" folder="logos" />
 						<Word image="unison" folder="logos" />
@@ -252,8 +257,11 @@
 						<Word image="CND" folder="logos" />
 						<Word image="LWIC" folder="logos" />
 						<Word image="ies" folder="logos" />
+						<Word image="ls" folder="logos" />
 						<Word image="er" folder="logos" />
+						<Word image="r2r" folder="logos" />
 						<Word image="Greenpeace" folder="logos" />
+						<Word image="m4l" folder="logos" />
 						<Word image="greenmuslims" folder="logos" />
 						<Word image="dontpay" folder="logos" />
 						<Word image="pbj" folder="logos" />
