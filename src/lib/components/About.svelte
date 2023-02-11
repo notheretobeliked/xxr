@@ -73,7 +73,8 @@
 
 						<p>
 							100,000 people surrounding Parliament from 21 April, demanding a liveable future for
-							all. 
+							all. People coming 21 April, staying the night. People coming 22 April for the day.
+							People coming 23 April and staying till we win.
 						</p>
 
 						<p>If 100,000 people stay day after day, we will win.</p>
@@ -250,8 +251,8 @@
 						<Word image="hjc" folder="logos" />
 						<Word image="CND" folder="logos" />
 						<Word image="LWIC" folder="logos" />
-						<Word image="ies" folder="logos" />						
-						<Word image="er" folder="logos" />						
+						<Word image="ies" folder="logos" />
+						<Word image="er" folder="logos" />
 						<Word image="Greenpeace" folder="logos" />
 						<Word image="greenmuslims" folder="logos" />
 						<Word image="dontpay" folder="logos" />
@@ -261,7 +262,6 @@
 						<Word image="ICC" folder="logos" />
 						<Word image="unite" folder="logos" />
 						<Word image="GND" folder="logos" />
-						<Word image="zion" folder="logos" />
 						<Word image="RMT" folder="logos" />
 					</div>
 				</div>
