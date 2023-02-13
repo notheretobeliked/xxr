@@ -233,7 +233,7 @@
 						Supporters of these organisations and many more will be surrounding Parliament from 21
 						April 2023. Will you?
 					</p>
-					<div class="col-span-4 flex flex-row gap-6 logos">
+					<div class="col-span-4 flex flex-row gap-6 logos blur-xl">
 						<Word image="rspb" folder="logos" />
 						<Word image="bpt" folder="logos" />
 						<Word image="wlt" folder="logos" />
@@ -244,14 +244,12 @@
 						<Word image="rw" folder="logos" />
 						<Word image="ss" folder="logos" />
 						<Word image="kbt" folder="logos" />
-						<Word image="NationalTrust" folder="logos" />
 						<Word image="RCN" folder="logos" />
 						<Word image="nhtbl" folder="logos" />
 						<Word image="mf" folder="logos" />
 						<Word image="fff" folder="logos" />
 						<Word image="paetport" folder="logos" />
 						<Word image="hrc" folder="logos" />
-						<Word image="Amnesty" folder="logos" />
 						<Word image="jw3" folder="logos" />
 						<Word image="unison" folder="logos" />
 						<Word image="hjc" folder="logos" />
@@ -261,7 +259,6 @@
 						<Word image="ls" folder="logos" />
 						<Word image="er" folder="logos" />
 						<Word image="r2r" folder="logos" />
-						<Word image="Greenpeace" folder="logos" />
 						<Word image="m4l" folder="logos" />
 						<Word image="greenmuslims" folder="logos" />
 						<Word image="dontpay" folder="logos" />
