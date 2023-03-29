@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte'
 	import { fade, fly } from 'svelte/transition'
 	import { openModal } from 'svelte-modals'
+	import { goto } from '$app/navigation'
 
 	let h: number = 0
 	let wh: number = 0
@@ -261,6 +262,7 @@
 						<Word image="ls" folder="logos" />
 						<Word image="er" folder="logos" />
 						<Word image="r2r" folder="logos" />
+						<Word image="zion" folder="logos" />
 						<Word image="Greenpeace" folder="logos" />
 						<Word image="m4l" folder="logos" />
 						<Word image="greenmuslims" folder="logos" />
@@ -272,6 +274,14 @@
 						<Word image="unite" folder="logos" />
 						<Word image="GND" folder="logos" />
 						<Word image="RMT" folder="logos" />
+					</div>
+					<div class="col-span-4 flex flex-row gap-6 logos">
+						<a on:click={() => (active = false)} class="mt-20" href="/about">
+							<Button label="Who made this and why?" />
+						</a>
+						<a class="mt-20" href="/SP_A3-poster_CMYK.zip" target="_blank">
+							<Button label="Download poster to print" />
+						</a>
 					</div>
 				</div>
 			</div>

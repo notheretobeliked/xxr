@@ -70,7 +70,7 @@
 			{#if word == '.'}
 				<div class="basis-full h-4" />
 			{:else}
-				<div transition:fly={{ x: -200, delay: i * 100, duration: 200, easing: cubicOut }}>
+				<div in:fly={{ x: -200, delay: i * 100, duration: 200, easing: cubicOut }} out:fly={{ x: -200, delay: i * 10, duration: 20, easing: cubicOut }}>
 					<Word {word} image={filename} />
 				</div>
 			{/if}
