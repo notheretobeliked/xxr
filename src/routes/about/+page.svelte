@@ -45,7 +45,7 @@
   
   <p class="mb-4">We want to speak directly to people who are outside the environmental bubble, by saying things that organisations aren't. By being unbranded, and bypassing organisational beauracracy, we're reaching out directly to members and supporters of groups we know want to take part, but aren't perhaps yet publicly saying so. </p>
   
-  <p class="mb-4">This website been accused of being created by Extinction Rebellion by some people, and said to be made by people who want XR to fail by others. None of the creators are currently part of Extinction Rebellion, but we hope it is complimentary, not harmful to their efforts. (If <em>you</em> still think its an attack, then we invite you to dress up as a rat and walk around with cutout speech bubbles )</p>
+  <p class="mb-4">This website been accused of being created by Extinction Rebellion by some people, and said to be made by people who want XR to fail by others. None of the creators are currently part of Extinction Rebellion, but we hope it is complimentary, not harmful to their efforts. (If <em>you</em> still think its an attack, then we invite you to dress up as a corporate rat and walk around Parliament Square with cutout speech bubbles featuring your worst insults.)</p>
   
   <p class="mb-4">Again, this website is not owned by any organisation. It was created to help ordinary people, who support many causes, come together for change. To mobilise for mass nonviolent civil disobedience in the face of climate crisis, cost of living chaos, environmental destruction, and massive inequality and injustice.</p>
   
