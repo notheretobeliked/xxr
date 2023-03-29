@@ -69,13 +69,10 @@
 				<div class="space-it px-2 grid lg:grid-cols-4  gap-6px-4 lg:px-8 w-full max-w-6xl m-auto">
 					<div class="col-span-3">
 						<h1 class="">What’s all this then?</h1>
-
-						<p>Surround Parliament: Embrace democracy.</p>
-
 						<p>
 							100,000 people surrounding Parliament from 21 April, demanding a liveable future for
-							all. People coming 21 April, staying the night. People coming 22 April for the day.
-							People coming 23 April and staying till we win.
+							all. People coming 22 April, staying the night. People coming 23 April for the day.
+							People coming 24 April and staying till we win.  
 						</p>
 
 						<p>If 100,000 people stay day after day, we will win.</p>
@@ -262,7 +259,6 @@
 						<Word image="ls" folder="logos" />
 						<Word image="er" folder="logos" />
 						<Word image="r2r" folder="logos" />
-						<Word image="zion" folder="logos" />
 						<Word image="Greenpeace" folder="logos" />
 						<Word image="m4l" folder="logos" />
 						<Word image="greenmuslims" folder="logos" />

@@ -6,6 +6,7 @@ module.exports = {
       'yellow': '#FEE76F',
       'black': '#191B2E',
       'pink': '#F099FF',
+      'white': '#F9F9F9',
     },
     fontSize: {
       sm: '1rem',
@@ -16,6 +17,7 @@ module.exports = {
     fontFamily: {
       'hk': ['HK Grotesk', 'Helvetica', 'Arial', 'sans-serif'],
       'hk-wide': ['HK Grotesk Wide', 'Helvetica', 'Arial', 'sans-serif'],
+      'typewriter': ['Courier', 'Courier New', 'monospace'],
     },
     extend: {},
   },
